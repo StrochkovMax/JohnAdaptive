@@ -278,9 +278,6 @@ body {
   font-size: 16px;
   line-height: 24px; }
 
-.footer__container {
-  padding-bottom: 60px; }
-
 .footer__icons {
   text-align: center;
   margin-bottom: 31px; }
@@ -293,17 +290,20 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #21243D; }
+  color: #21243D;
+  margin-bottom: 60px; }
 
 @media (max-width: 991.98px) {
   .container {
     max-width: 970px;
     margin: 0 auto;
-    padding: 0 10px  60px 0; }
+    padding: 0 10px; }
   .posts__item {
     margin-right: 10px; }
   .posts__item:nth-child(2) {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+  .footer__rights {
+    padding-bottom: 30px; } }
 
 @media (max-width: 575.98px) {
   .header__menu {
@@ -313,7 +313,7 @@ body {
   .container {
     max-width: 550px;
     margin: 0 auto;
-    padding: 0 10px 60px 0; }
+    padding: 0 10px; }
   .hi__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -379,7 +379,9 @@ body {
   .work__year {
     font-size: 16px; }
   .work__category {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .footer__rights {
+    padding-bottom: 30px; } }
 
 /*
 // Шаблон с какого-то сайта //
